@@ -1,9 +1,10 @@
+import Jumbotorn from "@/components/Jumbotron";
 
 
 export default function Home() {
   return (
-      <div className="container">
-        
+      <div>
+        <Jumbotorn/>
       </div>
-  );
+  )
 }
